@@ -1,0 +1,2 @@
+mysql> source data/import-table-structure.sql
+Query OK, 0 rows affected, 1 warning (0.00 sec)
