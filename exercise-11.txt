@@ -1,0 +1,27 @@
+How many Address Book Entries are not listed as other?
+
+
+mysql> select id from Entry where type != "other";
+
+...
+2800 rows in set (0.00 sec)
+
+
+
+How many Address Book Entries are listed as either home or work?
+
+
+mysql> select id from Entry where type = "home" or type = "work"; 
+
+...
+2800 rows in set (0.00 sec)
+
+
+
+How many Address Book Entries are listed as phones?
+
+
+mysql> select id from Entry where subtype = "phone";
+
+...
+600 rows in set (0.00 sec)
