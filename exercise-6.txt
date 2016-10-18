@@ -1,0 +1,6 @@
+
+mysql> truncate table AddressBook;
+Query OK, 0 rows affected (0.00 sec)
+
+mysql> select * from AddressBook;
+Empty set (0.00 sec)
