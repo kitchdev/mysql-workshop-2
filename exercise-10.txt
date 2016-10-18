@@ -1,0 +1,32 @@
+How many Address Book Entries are listed as born before February 12th of 1982?
+
+
+select id from Entry where birthday < "1982-02-12"
+
+//the list is huge.. like over 2000 entries.
+
+
+
+
+
+How many Address Book Entries are listed as born on or after January 1st of 1965?
+
+
+
+select id from Entry where birthday > "1965-01-01"
+
+// again over 2500..
+
+
+
+
+
+Which Address Book Entry is listed as being the oldest of age?
+
+select birthday from Entry 
+where birthday > "1000-01-01"
+order by birthday desc;
+
+// and the oldest age is at the bottom of the list.
+
+1945-09-02 09:21:58
